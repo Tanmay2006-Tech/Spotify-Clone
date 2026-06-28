@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spotify</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <input type="checkbox" id="playToggle">
+  <input type="radio" name="plan" id="planFree" checked>
+  <input type="radio" name="plan" id="planPremium">
+
+<header class="topbar">
+  <h2 class="logo">
+    <img 
+      src="https://yt3.googleusercontent.com/UMGZZMPQkM3kGtyW4jNE1GtpSrydfNJdbG1UyWTp5zeqUYc6-rton70Imm7B11RulRRuK521NQ=s900-c-k-c0x00ffffff-no-rj"
+      alt="Spotify Logo"
+      class="logo-img"
+    >
+    Spotify
+  </h2>
+
+  <input
+    type="text"
+    class="search-input"
+    placeholder="Search songs, artists, albums..."
+  >
+
+  <div class="auth-buttons">
+    <button class="btn btn-outline">Log In</button>
+    <button class="btn btn-filled">Sign Up</button>
+  </div>
+</header>
+
+  <div class="page">
+
+    <aside class="sidebar">
+      <ul class="nav-list">
+        <li>Home</li>
+        <li>Search</li>
+        <li>Your Library</li>
+      </ul>
+      <h3 class="playlist-title">Playlists</h3>
+      <ul class="nav-list">
+        <li>Chill Vibes</li>
+        <li>Workout Mix</li>
+        <li>Study Focus</li>
+        <li>Throwback Hits</li>
+      </ul>
+    </aside>
+
+    <main class="main">
+      <h1>Good Afternoon</h1>
+      <h2>Recently Played</h2>
+
+      <div class="card-grid">
+        <div class="card">
+          <img src="https://i1.sndcdn.com/artworks-T5KqOdidfrbpyddU-sGIJsA-t500x500.jpg" alt="Blinding Lights cover" class="cover">
+          <p>Blinding Lights</p>
+          <span class="card-artist">The Weeknd</span>
+        </div>
+        <div class="card">
+          <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e406c545-2ff1-4c83-ae0b-fdac1dd62a8d/dfu483b-e23f518f-f3ae-42c5-b886-ce70d57c40ed.jpg/v1/fill/w_1280,h_1280,q_75,strp/cover_art_for_levitating_by_dua_lipa_by_studiorinagraphic_dfu483b-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiIvZi9lNDA2YzU0NS0yZmYxLTRjODMtYWUwYi1mZGFjMWRkNjJhOGQvZGZ1NDgzYi1lMjNmNTE4Zi1mM2FlLTQyYzUtYjg4Ni1jZTcwZDU3YzQwZWQuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.1rrEZQ7y7VtI8F_XOtiAmv1X2-vIvo-cFY3L079GdQQ" alt="Levitating cover" class="cover">
+          <p>Levitating</p>
+          <span class="card-artist">Dua Lipa</span>
+        </div>
+        <div class="card">
+          <img src="https://c.saavncdn.com/126/Shape-of-You-English-2017-500x500.jpg" alt="Shape of You cover" class="cover">
+          <p>Shape of You</p>
+          <span class="card-artist">Ed Sheeran</span>
+        </div>
+        <div class="card">
+          <img src="https://i.scdn.co/image/ab67616d0000b2731369acdaeb166515c852e2d1" alt="Watermelon Sugar cover" class="cover">
+          <p>Watermelon Sugar</p>
+          <span class="card-artist">Harry Styles</span>
+        </div>
+      </div>
+
+      <h2>Top Hits</h2>
+      <div class="card-grid">
+        <div class="card">
+          <img src="https://upload.wikimedia.org/wikipedia/en/3/39/The_Weeknd_-_Starboy.png" alt="Starboy cover" class="cover">
+          <p>Starboy</p>
+          <span class="card-artist">The Weeknd</span>
+        </div>
+        <div class="card">
+          <img src="https://f4.bcbits.com/img/a0725618779_10.jpg" alt="Stay cover" class="cover">
+          <p>Stay</p>
+          <span class="card-artist">The Kid LAROI, Justin Bieber</span>
+        </div>
+        <div class="card">
+          <img src="https://c.saavncdn.com/720/As-It-Was-English-2022-20220401035858-500x500.jpg" alt="As It Was cover" class="cover">
+          <p>As It Was</p>
+          <span class="card-artist">Harry Styles</span>
+        </div>
+        <div class="card">
+          <img src="https://i1.sndcdn.com/artworks-xv6wmk7ZKpW6ZT8g-AVcnRA-t500x500.jpg" alt="Good 4 U cover" class="cover">
+          <p>Good 4 U</p>
+          <span class="card-artist">Olivia Rodrigo</span>
+        </div>
+      </div>
+
+      <section class="premium-section">
+        <h1>Go Premium</h1>
+        <p class="premium-subtext">Choose a plan and enjoy ad-free music, offline downloads, and higher audio quality.</p>
+
+        <div class="plan-grid">
+          <label for="planFree" class="plan-card">
+            <h3>Free</h3>
+            <p class="plan-price">$0<span>/month</span></p>
+            <ul class="plan-features">
+              <li>Ad-supported listening</li>
+              <li>Standard audio quality</li>
+              <li>Online only</li>
+            </ul>
+          </label>
+
+          <label for="planPremium" class="plan-card">
+            <h3>Premium</h3>
+            <p class="plan-price">$9<span>/month</span></p>
+            <ul class="plan-features">
+              <li>No ads</li>
+              <li>High audio quality</li>
+              <li>Offline downloads</li>
+            </ul>
+          </label>
+        </div>
+
+        <form class="signup-form">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit" class="btn btn-filled">Subscribe</button>
+        </form>
+      </section>
+    </main>
+
+  </div>
+
+  <footer class="player">
+    <div class="now-playing">
+      <img src="https://i1.sndcdn.com/artworks-T5KqOdidfrbpyddU-sGIJsA-t500x500.jpg" alt="album art" class="cover cover-small">
+      <div>
+        <p class="song-name">Blinding Lights</p>
+        <p class="artist-name">The Weeknd</p>
+      </div>
+    </div>
+
+    <div class="player-center">
+      <div class="control-buttons">
+        <span class="ctrl">🔀</span>
+        <span class="ctrl">⏮</span>
+        <label for="playToggle" class="play-button">
+          <span class="play-icon">▶</span>
+          <span class="pause-icon">❚❚</span>
+        </label>
+        <span class="ctrl">⏭</span>
+        <span class="ctrl">🔁</span>
+      </div>
+
+      <div class="progress-bar">
+        <div class="progress-fill"></div>
+      </div>
+    </div>
+
+    <div class="volume-section">
+      <span>🔊</span>
+      <input type="range" class="volume-slider" min="0" max="100" value="65">
+    </div>
+  </footer>
+
+</body>
+</html>
